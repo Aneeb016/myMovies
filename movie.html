@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        body{
+            background-color:silver;
+        }
+     .container{
+        /* background-color: rgb(77, 129, 197); */
+        width: 50%;
+        margin: auto;
+    }
+    .navbar{
+        background-color: rgb(53, 49, 49);
+        color: rgb(197, 198, 199);
+        padding: 10px;
+        text-align: center;
+    }
+    video{
+        padding-bottom: 50px;
+    }
+    h1{
+        background-color: darkgoldenrod;
+        text-align: center;
+    }
+    h2{
+        text-align: center;
+    }
+/*    Media Qeury    */
+/* Media queries for tablets */
+@media screen and (max-width: 768px) {
+  header {
+    padding: 10px;
+  }
+  nav ul li {
+    display: block;
+    margin: 10px 0;
+  }
+}
+
+/* Media queries for mobile devices */
+@media screen and (max-width: 480px) {
+  header {
+    padding: 5px;
+  }
+  .container{
+    width:80% ;
+  }
+ video{
+width: 100%;
+ }
+  
+}
+
+</style>
+</head>
+<body>
+    <nav class="navbar"><pre> Home    About    Contact </pre></nav>
+ <div class="container">
+    <h1 >MyMovies</h1>
+
+    <h2>Strange Things Season1</h2>
+<video src="Stranger_Things_(2016)_Hindi_Dubbed_Season_01_Complete.mp4"  width="100%
+" controls></video>
+<h2>Strange Things Season2</h2>
+
+<video src="Stranger_Things_(2017)_Hindi_Dubbed_Season_02_Complete.mp4" width="100%
+" controls></video>
+<h2>Strange Things Season3</h2>
+<video src="Stranger_Things_(2019)_Hindi_Dubbed_Season_03_Complete.mp4" width="100%
+" controls></video>
+<h2>Strange Things Season4</h2>
+<video src="Stranger_Things_(2022)_Hindi_Dubbed_Season_4_Complete_720p.mp4" width="100%
+" controls></video>
+<h2>Wednesday season1</h2>
+<video src="Wednesday_(2022)_Hindi_Dubbed_Season_1_Complete_720p.mp4" width="100%
+" controls></video>
+</div>
+
+</body>
+</html>
